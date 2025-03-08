@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+  <test name="Test-1"><!-- it is also known as test runner-->
+    <classes>
+      <class name="practice.testng.CreateContact"/>
+    </classes>
+  </test>
+  <test name="Test-2">
+    <classes>
+      <class name="practice.testng.CreateOrgnization"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
