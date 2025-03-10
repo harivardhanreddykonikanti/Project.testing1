@@ -3,17 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.testng.ListnerTestingTest">
+      <class name="practice.testng.CreateContact">
         <methods>
           <include name="configafterclass"/>
+          <include name="createcontwithsuppdate"/>
           <include name="configAftersuit"/>
+          <include name="createcontwithname"/>
+          <include name="createcontwithorgname"/>
           <include name="configBeforeSuit"/>
           <include name="configbeforeclass"/>
           <include name="configbeforemethod"/>
-          <include name="createinvoicewithcontact"/>
           <include name="configaftermethod"/>
         </methods>
-      </class> <!-- practice.testng.ListnerTestingTest -->
+      </class> <!-- practice.testng.CreateContact -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,121 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="8" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-03T18:09:08 IST" name="Suite" finished-at="2025-03-03T18:11:09 IST" duration-ms="120631">
+  <suite started-at="2025-03-10T12:15:17 IST" name="Default suite" finished-at="2025-03-10T12:16:02 IST" duration-ms="45699">
     <groups>
       <group name="regressiontest">
-        <method signature="CreateContact.createcontwithorgname()[pri:0, instance:practice.testng.CreateContact@46cdf8bd]" name="createcontwithorgname" class="practice.testng.CreateContact"/>
-        <method signature="CreateContact.createcontwithsuppdate()[pri:0, instance:practice.testng.CreateContact@46cdf8bd]" name="createcontwithsuppdate" class="practice.testng.CreateContact"/>
-        <method signature="CreateOrgnization.createOrgnwithindustry()[pri:0, instance:practice.testng.CreateOrgnization@6d4d66d2]" name="createOrgnwithindustry" class="practice.testng.CreateOrgnization"/>
-        <method signature="CreateOrgnization.createorgwithphonenum()[pri:0, instance:practice.testng.CreateOrgnization@6d4d66d2]" name="createorgwithphonenum" class="practice.testng.CreateOrgnization"/>
+        <method signature="CreateContact.createcontwithorgname()[pri:0, instance:practice.testng.CreateContact@3e27aa33]" name="createcontwithorgname" class="practice.testng.CreateContact"/>
+        <method signature="CreateContact.createcontwithsuppdate()[pri:0, instance:practice.testng.CreateContact@3e27aa33]" name="createcontwithsuppdate" class="practice.testng.CreateContact"/>
       </group> <!-- regressiontest -->
       <group name="smoketest">
-        <method signature="CreateContact.createcontwithname()[pri:0, instance:practice.testng.CreateContact@46cdf8bd]" name="createcontwithname" class="practice.testng.CreateContact"/>
-        <method signature="CreateOrgnization.createContactTest()[pri:0, instance:practice.testng.CreateOrgnization@6d4d66d2]" name="createContactTest" class="practice.testng.CreateOrgnization"/>
+        <method signature="CreateContact.createcontwithname()[pri:0, instance:practice.testng.CreateContact@3e27aa33]" name="createcontwithname" class="practice.testng.CreateContact"/>
       </group> <!-- smoketest -->
     </groups>
-    <test started-at="2025-03-03T18:09:08 IST" name="Test" finished-at="2025-03-03T18:11:09 IST" duration-ms="120631">
-      <class name="practice.testng.CreateOrgnization">
-        <test-method is-config="true" signature="configbeforeclass()[pri:0, instance:practice.testng.CreateOrgnization@6d4d66d2]" started-at="2025-03-03T18:10:23 IST" name="configbeforeclass" finished-at="2025-03-03T18:10:25 IST" duration-ms="1491" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configbeforeclass -->
-        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:practice.testng.CreateOrgnization@6d4d66d2]" started-at="2025-03-03T18:10:25 IST" name="configbeforemethod" finished-at="2025-03-03T18:10:29 IST" duration-ms="4240" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configbeforemethod -->
-        <test-method signature="createContactTest()[pri:0, instance:practice.testng.CreateOrgnization@6d4d66d2]" started-at="2025-03-03T18:10:29 IST" name="createContactTest" finished-at="2025-03-03T18:10:39 IST" duration-ms="9638" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createContactTest -->
-        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:practice.testng.CreateOrgnization@6d4d66d2]" started-at="2025-03-03T18:10:39 IST" name="configaftermethod" finished-at="2025-03-03T18:10:40 IST" duration-ms="1287" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configaftermethod -->
-        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:practice.testng.CreateOrgnization@6d4d66d2]" started-at="2025-03-03T18:10:40 IST" name="configbeforemethod" finished-at="2025-03-03T18:10:43 IST" duration-ms="2903" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configbeforemethod -->
-        <test-method signature="createOrgnwithindustry()[pri:0, instance:practice.testng.CreateOrgnization@6d4d66d2]" started-at="2025-03-03T18:10:43 IST" name="createOrgnwithindustry" finished-at="2025-03-03T18:10:53 IST" duration-ms="10526" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOrgnwithindustry -->
-        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:practice.testng.CreateOrgnization@6d4d66d2]" started-at="2025-03-03T18:10:53 IST" name="configaftermethod" finished-at="2025-03-03T18:10:55 IST" duration-ms="1479" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configaftermethod -->
-        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:practice.testng.CreateOrgnization@6d4d66d2]" started-at="2025-03-03T18:10:55 IST" name="configbeforemethod" finished-at="2025-03-03T18:10:57 IST" duration-ms="2692" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configbeforemethod -->
-        <test-method signature="createorgwithphonenum()[pri:0, instance:practice.testng.CreateOrgnization@6d4d66d2]" started-at="2025-03-03T18:10:57 IST" name="createorgwithphonenum" finished-at="2025-03-03T18:11:07 IST" duration-ms="9927" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createorgwithphonenum -->
-        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:practice.testng.CreateOrgnization@6d4d66d2]" started-at="2025-03-03T18:11:07 IST" name="configaftermethod" finished-at="2025-03-03T18:11:09 IST" duration-ms="1252" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configaftermethod -->
-        <test-method is-config="true" signature="configafterclass()[pri:0, instance:practice.testng.CreateOrgnization@6d4d66d2]" started-at="2025-03-03T18:11:09 IST" name="configafterclass" finished-at="2025-03-03T18:11:09 IST" duration-ms="314" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configafterclass -->
-      </class> <!-- practice.testng.CreateOrgnization -->
+    <test started-at="2025-03-10T12:15:17 IST" name="Default test" finished-at="2025-03-10T12:16:02 IST" duration-ms="45699">
       <class name="practice.testng.CreateContact">
-        <test-method is-config="true" signature="configBeforeSuit()[pri:0, instance:practice.testng.CreateContact@46cdf8bd]" started-at="2025-03-03T18:09:08 IST" name="configBeforeSuit" finished-at="2025-03-03T18:09:08 IST" duration-ms="485" status="PASS">
+        <test-method is-config="true" signature="configBeforeSuit()[pri:0, instance:practice.testng.CreateContact@3e27aa33]" started-at="2025-03-10T12:15:16 IST" name="configBeforeSuit" finished-at="2025-03-10T12:15:17 IST" duration-ms="763" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeSuit -->
-        <test-method is-config="true" signature="configbeforeclass()[pri:0, instance:practice.testng.CreateContact@46cdf8bd]" started-at="2025-03-03T18:09:08 IST" name="configbeforeclass" finished-at="2025-03-03T18:09:12 IST" duration-ms="3598" status="PASS">
+        <test-method is-config="true" signature="configbeforeclass()[pri:0, instance:practice.testng.CreateContact@3e27aa33]" started-at="2025-03-10T12:15:17 IST" name="configbeforeclass" finished-at="2025-03-10T12:15:22 IST" duration-ms="5336" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configbeforeclass -->
-        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:practice.testng.CreateContact@46cdf8bd]" started-at="2025-03-03T18:09:12 IST" name="configbeforemethod" finished-at="2025-03-03T18:09:16 IST" duration-ms="3564" status="PASS">
+        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:practice.testng.CreateContact@3e27aa33]" started-at="2025-03-10T12:15:22 IST" name="configbeforemethod" finished-at="2025-03-10T12:15:30 IST" duration-ms="7345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configbeforemethod -->
-        <test-method signature="createcontwithname()[pri:0, instance:practice.testng.CreateContact@46cdf8bd]" started-at="2025-03-03T18:09:16 IST" name="createcontwithname" finished-at="2025-03-03T18:09:28 IST" duration-ms="12814" status="PASS">
+        <test-method signature="createcontwithname()[pri:0, instance:practice.testng.CreateContact@3e27aa33]" started-at="2025-03-10T12:15:30 IST" name="createcontwithname" finished-at="2025-03-10T12:15:30 IST" duration-ms="13" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.comcast.crm.generic.webdriverutlity.UtilityClassObject.getTest()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.comcast.crm.generic.webdriverutlity.UtilityClassObject.getTest()" is null
+at practice.testng.CreateContact.createcontwithname(CreateContact.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createcontwithname -->
-        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:practice.testng.CreateContact@46cdf8bd]" started-at="2025-03-03T18:09:28 IST" name="configaftermethod" finished-at="2025-03-03T18:09:30 IST" duration-ms="1607" status="PASS">
+        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:practice.testng.CreateContact@3e27aa33]" started-at="2025-03-10T12:15:30 IST" name="configaftermethod" finished-at="2025-03-10T12:15:49 IST" duration-ms="19827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configaftermethod -->
-        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:practice.testng.CreateContact@46cdf8bd]" started-at="2025-03-03T18:09:30 IST" name="configbeforemethod" finished-at="2025-03-03T18:09:33 IST" duration-ms="3511" status="PASS">
+        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:practice.testng.CreateContact@3e27aa33]" started-at="2025-03-10T12:15:49 IST" name="configbeforemethod" finished-at="2025-03-10T12:15:52 IST" duration-ms="2636" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configbeforemethod -->
-        <test-method signature="createcontwithorgname()[pri:0, instance:practice.testng.CreateContact@46cdf8bd]" started-at="2025-03-03T18:09:33 IST" name="createcontwithorgname" finished-at="2025-03-03T18:10:04 IST" duration-ms="30568" status="PASS">
+        <test-method signature="createcontwithorgname()[pri:0, instance:practice.testng.CreateContact@3e27aa33]" started-at="2025-03-10T12:15:52 IST" name="createcontwithorgname" finished-at="2025-03-10T12:15:52 IST" duration-ms="10" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.comcast.crm.generic.webdriverutlity.UtilityClassObject.getTest()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.comcast.crm.generic.webdriverutlity.UtilityClassObject.getTest()" is null
+at practice.testng.CreateContact.createcontwithorgname(CreateContact.java:128)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createcontwithorgname -->
-        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:practice.testng.CreateContact@46cdf8bd]" started-at="2025-03-03T18:10:04 IST" name="configaftermethod" finished-at="2025-03-03T18:10:05 IST" duration-ms="1249" status="PASS">
+        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:practice.testng.CreateContact@3e27aa33]" started-at="2025-03-10T12:15:52 IST" name="configaftermethod" finished-at="2025-03-10T12:15:56 IST" duration-ms="3696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configaftermethod -->
-        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:practice.testng.CreateContact@46cdf8bd]" started-at="2025-03-03T18:10:05 IST" name="configbeforemethod" finished-at="2025-03-03T18:10:08 IST" duration-ms="2522" status="PASS">
+        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:practice.testng.CreateContact@3e27aa33]" started-at="2025-03-10T12:15:56 IST" name="configbeforemethod" finished-at="2025-03-10T12:15:58 IST" duration-ms="2737" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configbeforemethod -->
-        <test-method signature="createcontwithsuppdate()[pri:0, instance:practice.testng.CreateContact@46cdf8bd]" started-at="2025-03-03T18:10:08 IST" name="createcontwithsuppdate" finished-at="2025-03-03T18:10:21 IST" duration-ms="13601" status="PASS">
+        <test-method signature="createcontwithsuppdate()[pri:0, instance:practice.testng.CreateContact@3e27aa33]" started-at="2025-03-10T12:15:58 IST" name="createcontwithsuppdate" finished-at="2025-03-10T12:15:58 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.comcast.crm.generic.webdriverutlity.UtilityClassObject.getTest()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.comcast.crm.generic.webdriverutlity.UtilityClassObject.getTest()" is null
+at practice.testng.CreateContact.createcontwithsuppdate(CreateContact.java:74)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createcontwithsuppdate -->
-        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:practice.testng.CreateContact@46cdf8bd]" started-at="2025-03-03T18:10:21 IST" name="configaftermethod" finished-at="2025-03-03T18:10:23 IST" duration-ms="1263" status="PASS">
+        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:practice.testng.CreateContact@3e27aa33]" started-at="2025-03-10T12:15:58 IST" name="configaftermethod" finished-at="2025-03-10T12:16:02 IST" duration-ms="3638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configaftermethod -->
-        <test-method is-config="true" signature="configafterclass()[pri:0, instance:practice.testng.CreateContact@46cdf8bd]" started-at="2025-03-03T18:10:23 IST" name="configafterclass" finished-at="2025-03-03T18:10:23 IST" duration-ms="522" status="PASS">
+        <test-method is-config="true" signature="configafterclass()[pri:0, instance:practice.testng.CreateContact@3e27aa33]" started-at="2025-03-10T12:16:02 IST" name="configafterclass" finished-at="2025-03-10T12:16:02 IST" duration-ms="372" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configafterclass -->
-        <test-method is-config="true" signature="configAftersuit()[pri:0, instance:practice.testng.CreateContact@46cdf8bd]" started-at="2025-03-03T18:11:09 IST" name="configAftersuit" finished-at="2025-03-03T18:11:09 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="configAftersuit()[pri:0, instance:practice.testng.CreateContact@3e27aa33]" started-at="2025-03-10T12:16:03 IST" name="configAftersuit" finished-at="2025-03-10T12:16:03 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAftersuit -->
       </class> <!-- practice.testng.CreateContact -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
