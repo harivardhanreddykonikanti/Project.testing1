@@ -6,6 +6,7 @@ public class GitConflictExp {
 		System.out.println("this line is created by the admin");
 		System.out.println("this line is  created by the TE-1 SAM");
 		System.out.println("this line is  created by the TE-2 Steve");
+		System.out.println("this line is  created by the TE-1 SAM Purpose only ");
 	}
 
 }
